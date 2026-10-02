@@ -1,0 +1,94 @@
+/* 🌍 BODY */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial;
+    background: linear-gradient(135deg,#e0d7ff,#f5f3ff);
+}
+
+/* 🔝 HEADER */
+.header {
+    background: linear-gradient(135deg,#6a0dad,#9b30ff);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.header a {
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 📦 CONTAINER */
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* 📋 QUESTION BOX */
+.question-box {
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* ❓ QUESTION */
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    font-weight: bold;
+    color: #6a0dad;
+    margin-bottom: 8px;
+}
+
+/* ✏ INPUT */
+.question input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* FOCUS EFFECT */
+.question input:focus {
+    border-color: #6a0dad;
+    box-shadow: 0 0 5px rgba(106,13,173,0.5);
+}
+
+/* 🚀 SUBMIT BUTTON */
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#6a0dad,#9b30ff);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.submit-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(106,13,173,0.4);
+}
+
+/* CLICK */
+.submit-btn:active {
+    transform: scale(0.95);
+}
